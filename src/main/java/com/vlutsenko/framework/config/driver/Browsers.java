@@ -1,4 +1,4 @@
-package com.vlutsenko.qaplaygroundjava.config.driver;
+package com.vlutsenko.framework.config.driver;
 
 public enum Browsers {
     CHROME("chrome"),

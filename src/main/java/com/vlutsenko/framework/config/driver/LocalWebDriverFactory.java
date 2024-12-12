@@ -1,6 +1,6 @@
-package com.vlutsenko.qaplaygroundjava.config.driver;
+package com.vlutsenko.framework.config.driver;
 
-import com.vlutsenko.qaplaygroundjava.config.annotations.LazyConfiguration;
+import com.vlutsenko.framework.config.annotations.LazyConfiguration;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
-import static com.vlutsenko.qaplaygroundjava.config.scope.ScopeConstants.WEBDRIVER_SCOPE;
+import static com.vlutsenko.framework.config.scope.ScopeConstants.WEBDRIVER_SCOPE;
 
 @LazyConfiguration
 @Profile("!remote")

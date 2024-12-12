@@ -1,4 +1,4 @@
-package com.vlutsenko.qaplaygroundjava.config.annotations;
+package com.vlutsenko.framework.config.annotations;
 
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;

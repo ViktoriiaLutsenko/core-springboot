@@ -1,7 +1,7 @@
-package com.vlutsenko.qaplaygroundjava.page;
+package com.vlutsenko.framework.page;
 
-import com.vlutsenko.qaplaygroundjava.config.annotations.LazyAutowired;
-import com.vlutsenko.qaplaygroundjava.config.driver.WebDriverFactory;
+import com.vlutsenko.framework.config.annotations.LazyAutowired;
+import com.vlutsenko.framework.config.driver.WebDriverFactory;
 import jakarta.annotation.PostConstruct;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

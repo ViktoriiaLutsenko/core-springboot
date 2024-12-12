@@ -1,6 +1,6 @@
-package com.vlutsenko.qaplaygroundjava.config.wait;
+package com.vlutsenko.framework.config.wait;
 
-import com.vlutsenko.qaplaygroundjava.config.annotations.LazyConfigurationPrototypeScope;
+import com.vlutsenko.framework.config.annotations.LazyConfigurationPrototypeScope;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.beans.factory.annotation.Value;

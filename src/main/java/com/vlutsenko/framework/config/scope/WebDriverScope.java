@@ -1,4 +1,4 @@
-package com.vlutsenko.qaplaygroundjava.config.scope;
+package com.vlutsenko.framework.config.scope;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.SessionId;

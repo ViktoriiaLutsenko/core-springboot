@@ -1,24 +1,19 @@
-package com.vlutsenko.qaplaygroundjava.config.driver;
+package com.vlutsenko.framework.config.driver;
 
-import com.vlutsenko.qaplaygroundjava.config.annotations.LazyConfiguration;
-import com.vlutsenko.qaplaygroundjava.config.scope.WebDriverScope;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.vlutsenko.framework.config.annotations.LazyConfiguration;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
 
-import java.net.URI;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
-import static com.vlutsenko.qaplaygroundjava.config.scope.ScopeConstants.WEBDRIVER_SCOPE;
+import static com.vlutsenko.framework.config.scope.ScopeConstants.WEBDRIVER_SCOPE;
 
 @LazyConfiguration
 @Profile("remote")
