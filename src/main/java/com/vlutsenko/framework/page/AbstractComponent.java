@@ -16,10 +16,12 @@ public abstract class AbstractComponent {
     protected WebDriver driver;
 
     @PostConstruct
-    private void setUpDriver() {
+    protected void setUpDriver() {
         driver = webDriverFactory.getDriver();
         PageFactory.initElements(driver, this);
     }
+
+    public abstract boolean isAt();
 
 
 }
