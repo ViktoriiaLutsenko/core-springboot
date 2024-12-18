@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.vlutsenko</groupId>
-    <artifactId>core</artifactId>
+    <artifactId>core-springboot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Core</name>
 
